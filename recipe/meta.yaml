@@ -1,6 +1,6 @@
 {% set name = "pytest-console-scripts" %}
-{% set version = "0.1.5" %}
-{% set sha256 = "d4e314e7fc481afb57f69432ed147120da32ce4a9673d00aca327a7e628e74d2" %}
+{% set version = "0.1.7" %}
+{% set sha256 = "467bf833c820602884b4914808117fce08b913fc43f1cac5762e3536f00371b7" %}
 
 package:
   name: {{ name|lower }}
