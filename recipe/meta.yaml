@@ -1,6 +1,6 @@
 {% set name = "pytest-console-scripts" %}
-{% set version = "0.1.10" %}
-{% set sha256 = "6a5f495d1f469bd76698ae969bc01038f2b89584a84d41a373ca7033a0c18753" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "a88ac15d663b88ef8fd5d4929a1b50e782dd25eb84443de849ad78636ad3e699" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
