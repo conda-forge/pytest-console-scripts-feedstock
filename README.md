@@ -5,9 +5,13 @@ Home: https://github.com/kvas-it/pytest-console-scripts
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-console-scripts-feedstock/blob/master/LICENSE.txt)
 
 Summary: Pytest plugin for testing console scripts
+
+Development: https://github.com/kvas-it/pytest-console-scripts
+
+Documentation: https://github.com/kvas-it/pytest-console-scripts
 
 Pytest-console-scripts is a Pytest plugin for testing python
 scripts installed via console_scripts entry point of setup.py.
