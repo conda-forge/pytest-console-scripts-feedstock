@@ -1,6 +1,6 @@
 {% set name = "pytest-console-scripts" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "a88ac15d663b88ef8fd5d4929a1b50e782dd25eb84443de849ad78636ad3e699" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "c1344853e80d8096403e36b270254a094071d0c4f1533e94a91d7386f0f1ccfd" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
@@ -34,8 +34,8 @@ about:
   home: https://github.com/kvas-it/pytest-console-scripts
   license: MIT
   license_family: MIT
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'Pytest plugin for testing console scripts'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: Pytest plugin for testing console scripts
   description: |
     Pytest-console-scripts is a Pytest plugin for testing python
     scripts installed via console_scripts entry point of setup.py.
