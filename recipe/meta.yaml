@@ -1,5 +1,5 @@
 {% set name = "pytest-console-scripts" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c1344853e80d8096403e36b270254a094071d0c4f1533e94a91d7386f0f1ccfd
+  sha256: 4a2138d7d567bc581fe081b6a5975849a2a36b3925cb0f066d2380103e13741c
 
 build:
   number: 0
