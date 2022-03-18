@@ -19,7 +19,6 @@ requirements:
     - python >=3.6
     - setuptools-scm
   run:
-    - mock >=2.0.0
     - pytest >=4.0.0
     - python >=3.6
 
