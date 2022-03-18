@@ -1,4 +1,4 @@
-{% set version = "1.3" %}
+{% set version = "1.3.1" %}
 
 package:
   name: pytest-console-scripts
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytest-console-scripts/pytest-console-scripts-{{ version }}.tar.gz
-  sha256: c3cadbf67cfb30a1eb1cc1e9e69cb6de44c3a648426f1b9bf63e85d97357fc7f
+  sha256: 5c6c3daae9cf9fbed0e655072128938600193dc002a5cf1b187248644ba02857
 
 build:
   number: 0
@@ -19,7 +19,6 @@ requirements:
     - python >=3.6
     - setuptools-scm
   run:
-    - mock >=2.0.0
     - pytest >=4.0.0
     - python >=3.6
 
