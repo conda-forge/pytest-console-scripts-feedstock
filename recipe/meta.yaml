@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: pytest-console-scripts
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytest-console-scripts/pytest-console-scripts-{{ version }}.tar.gz
-  sha256: 6335679ef013fa20402dfd5b07219877d874bd3f0a198b84b23f17897ccbe50a
+  sha256: 5a826ed84cc0afa202eb9e44381d7d762f7bdda8e0c23f9f79a7f1f44cf4a895
 
 build:
   number: 0
